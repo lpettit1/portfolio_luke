@@ -21,6 +21,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  background: url(../image/portfolio3.jpg);
 }
 
 .content-section-heading h2 {
@@ -33,12 +34,15 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+h2 {
+  color: white;
 }
 
 .text-faded {
@@ -52,7 +56,7 @@ h6 {
 
 @media (max-width: 992px) {
   .map {
-    height: 10+%;
+    height: 10rem;
   }
 }
 
@@ -93,7 +97,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../image/picluke.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../image/portfolio2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
